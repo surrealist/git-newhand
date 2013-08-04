@@ -2,8 +2,11 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 <<<<<<< HEAD
+<<<<<<< HEAD
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "git-newhand.Web", "git-newhand.Web\git-newhand.Web.csproj", "{767B7E49-4550-4FA5-9952-669F4C664463}"
 =======
+=======
+>>>>>>> add checkpoint structure in home page
 Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "git-newhand", ".", "{FF64D5CB-7836-48CC-88B1-22C952846716}"
 	ProjectSection(WebsiteProperties) = preProject
 		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
@@ -23,11 +26,15 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "git-newhand", ".", "{FF64D5
 		Release.AspNetCompiler.Debug = "False"
 		VWDPort = "51032"
 	EndProjectSection
+<<<<<<< HEAD
 >>>>>>> e3843fb3f76a553499f2476a7ee803ed8a25ec4f
+=======
+>>>>>>> add checkpoint structure in home page
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
+<<<<<<< HEAD
 <<<<<<< HEAD
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
@@ -37,11 +44,16 @@ Global
 		{767B7E49-4550-4FA5-9952-669F4C664463}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{767B7E49-4550-4FA5-9952-669F4C664463}.Release|Any CPU.Build.0 = Release|Any CPU
 =======
+=======
+>>>>>>> add checkpoint structure in home page
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{FF64D5CB-7836-48CC-88B1-22C952846716}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{FF64D5CB-7836-48CC-88B1-22C952846716}.Debug|Any CPU.Build.0 = Debug|Any CPU
+<<<<<<< HEAD
 >>>>>>> e3843fb3f76a553499f2476a7ee803ed8a25ec4f
+=======
+>>>>>>> add checkpoint structure in home page
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

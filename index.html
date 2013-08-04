@@ -1,1 +1,120 @@
+<<<<<<< HEAD
 "My GitHub Page" 
+=======
+<!DOCTYPE html>
+<!--[if IE 8]> 				 <html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+
+<head>
+	<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>GreatFriends: git-newhand</title>
+  <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+  <link rel="stylesheet" href="css/foundation.css"> 
+  <link rel="stylesheet" href="css/newhand.css"> 
+  <script src="js/vendor/custom.modernizr.js"></script>
+</head>
+<body>
+<nav class="top-bar" style="">
+      <ul class="title-area">
+        <!-- Title Area -->
+        <li class="name">
+          <h1><a href="/">Git-Newhand</a></h1>
+        </li>
+        <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+        <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+      </ul>
+
+      
+    <section class="top-bar-section">
+        <!-- Right Nav Section -->
+        <ul class="right">
+          <li class="divider"></li>
+          <li class=""><a href="/">Home</a></li>
+          <li class="divider"></li>
+          <li class=""><a href="/contributors/">Contributors</a></li>
+          <li class="divider"></li>
+          <li class=""><a href="/how-to/">How to</a></li>
+          <li class="divider"></li>
+          <li class=""><a href="/docs/">Docs</a></li>
+          <li class="divider"></li>
+          <li class="has-form">
+            <a class="button" href="https://www.facebook.com/groups/555788204479185/">Join us!</a>
+          </li>
+        </ul>
+      </section></nav>
+	<div class="row">
+		<div class="large-12 columns">
+			<h2>Home</h2>
+		</div>
+	</div>
+
+	<div class="row">
+    <div class="columns">
+        <div class="section-container auto" data-section>
+          <section>
+            <p class="title" data-section-title><a href="#panel1">Readme</a></p>
+            <div class="content" data-section-content>
+			<h3>Git branching</h3>
+			<p>
+			To really understand the way Git does branching, we need to take a step back and examine how Git stores its data. As you may remember from Chapter 1 Git doesn't store data as a series of changesets or deltas, but instead as a series of snapshots.
+			</p>
+
+			<p>When you commit in Git, Git stores a commit object that contains a pointer to the snapshot of the content you staged, the author and message metadata, and zero or more pointers to the commit or commits that were the direct parents of this commit: zero parents for the first commit, one parent for a normal commit, and multiple parents for a commit that results from a merge of two or more branches.
+			</p>
+
+			<p>To visualize this, let's assume that you have a directory containing three files, and you stage them all and commit. Staging the files checksums each one (the SHA-1 hash we mentioned in Chapter 1), stores that version of the file in the Git repository (Git refers to them as blobs), and adds that checksum to the staging area</p>
+            </div>
+          </section>        
+          <section>
+            <p class="title" data-section-title><a href="#panel2">Contributors</a></p>
+            <div class="content" data-section-content>
+			<h3>Contributors</h3>
+
+			<ul class="no-bullet">
+			<li>surrealist</li>
+			<li>figgaro</li>
+			<li><em>add your name here...</em></li>
+			</ul>
+            </div>
+          </section>
+        </div>  
+        </div>      
+	</div>
+
+
+
+
+
+  <script>
+  document.write('<script src=' +
+  ('__proto__' in {} ? 'js/vendor/zepto' : 'js/vendor/jquery') +
+  '.js><\/script>')
+  </script>
+  
+  <script src="js/foundation.min.js"></script>
+  <!--  
+  <script src="js/foundation/foundation.js"></script>
+  <script src="js/foundation/foundation.alerts.js"></script>
+  <script src="js/foundation/foundation.clearing.js"></script>
+  <script src="js/foundation/foundation.cookie.js"></script>
+  <script src="js/foundation/foundation.dropdown.js"></script>
+  <script src="js/foundation/foundation.forms.js"></script>
+  <script src="js/foundation/foundation.joyride.js"></script>
+  <script src="js/foundation/foundation.magellan.js"></script>
+  <script src="js/foundation/foundation.orbit.js"></script>
+  <script src="js/foundation/foundation.reveal.js"></script>
+  <script src="js/foundation/foundation.section.js"></script>
+  <script src="js/foundation/foundation.tooltips.js"></script>
+  <script src="js/foundation/foundation.topbar.js"></script>
+  <script src="js/foundation/foundation.interchange.js"></script>
+  <script src="js/foundation/foundation.placeholder.js"></script>
+  <script src="js/foundation/foundation.abide.js"></script>
+  -->
+  
+  <script>
+    $(document).foundation();
+  </script>
+</body>
+</html>
+>>>>>>> master

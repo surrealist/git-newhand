@@ -1,0 +1,29 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>git-newhand</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="~/css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="~/css/app.css" rel="stylesheet" />
+  </head>
+  <body>
+    
+    @Html.Partial("_Navbar")
+    <div class="container">
+    @RenderBody()
+    </div>
+     
+    <script src="~/Scripts/jquery-2.0.3.min.js"></script>
+    <script src="~/js/bootstrap.min.js"></script>
+
+    @RenderSection("scripts", false)
+
+    @*    
+    <!-- Optionally enable responsive features in IE8. Respond.js can be obtained from https://github.com/scottjehl/Respond -->
+    <script src="js/respond.js"></script>*@
+  </body>
+</html>

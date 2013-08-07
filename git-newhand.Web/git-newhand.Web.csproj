@@ -111,7 +111,7 @@
     <Compile Include="Controllers\CheckpointsController.cs" />
     <Compile Include="Controllers\ContributeController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
-    <Compile Include="Controllers\TodoController.cs" />
+    <Compile Include="Controllers\ResourcesController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -150,7 +150,7 @@
     <Content Include="Views\_ViewStart.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Shared\_Navbar.cshtml" />
-    <Content Include="Views\Todo\Index.cshtml" />
+    <Content Include="Views\Resources\Index.cshtml" />
     <Content Include="Views\Checkpoints\Index.cshtml" />
     <Content Include="Views\Contribute\Index.cshtml" />
   </ItemGroup>

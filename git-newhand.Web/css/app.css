@@ -1,10 +1,30 @@
 ﻿body {
-  padding-top: 70px;
+  padding-top: 80px;
 }
 
+.navbar {
+  background-color: #563d7c;
+}
+.navbar a.navbar-brand { color: white;}
 .thai {
   font-family: Tahoma; 
 }
+ 
+.panel:hover {
+  background: whitesmoke;
+}
+.thai.thai-8pt {
+  font-size: 8pt;
+}
+
+.thai.thai-10pt {
+  font-size: 10pt;
+}
+
+.thai.thai-12pt {
+  font-size: 12pt;
+}
+
 
 kbd {
   background-color: whitesmoke;

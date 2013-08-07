@@ -9,10 +9,7 @@
 .thai {
   font-family: Tahoma; 
 }
- 
-.panel:hover {
-  background: whitesmoke;
-}
+  
 .thai.thai-8pt {
   font-size: 8pt;
 }
@@ -21,7 +18,9 @@
   font-size: 10pt;
 }
 
-.thai.thai-12pt {
+.size-8pt { font-size: 8pt;color: dimgray;}
+
+.thai.thai-12pt, .12pt {
   font-size: 12pt;
 }
 

@@ -20,12 +20,19 @@
      
     <script src="~/Scripts/jquery-2.0.3.min.js"></script>
     <script src="~/js/bootstrap.min.js"></script>
+     
+
+    <!-- To set current menu active (works in bootstrap & foundation) -->
     <script>
       (function() {
         var p = window.location.pathname;
         $("li:has(a[href='" + p + "'])").addClass("active");
       })();
     </script>
+    
+    
+    
+
     @RenderSection("scripts", false)
 
 @googleAnalytics()

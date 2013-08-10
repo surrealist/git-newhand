@@ -20,7 +20,13 @@
      
     <script src="~/Scripts/jquery-2.0.3.min.js"></script>
     <script src="~/js/bootstrap.min.js"></script>
+<<<<<<< HEAD
+    
+    
 
+=======
+     
+>>>>>>> sh
 
     <!-- To set current menu active (works in bootstrap & foundation) -->
     <script>

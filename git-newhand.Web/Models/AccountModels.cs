@@ -21,6 +21,8 @@ namespace git_newhand.Web.Models {
     [DatabaseGeneratedAttribute(DatabaseGeneratedOption.Identity)]
     public int UserId { get; set; }
     public string UserName { get; set; }
+    public string GravatarEmail { get; set; }
+    public string DisplayName { get; set; }
   }
 
   public class RegisterExternalLoginModel {

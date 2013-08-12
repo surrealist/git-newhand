@@ -15,6 +15,7 @@
     
     @Html.Partial("_Navbar")
     <div class="container">
+      @Html.Partial("_LoginPartial")
       @RenderBody()
     </div>
      
@@ -28,9 +29,7 @@
         var p = window.location.pathname;
         $("li:has(a[href='" + p + "'])").addClass("active");
       })();
-    </script>
-    
-    
+    </script> 
     
 
     @RenderSection("scripts", false)
